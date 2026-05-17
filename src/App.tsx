@@ -161,7 +161,7 @@ const SiteFooter = () => (
     </div>
     <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-cream/5 flex flex-col md:flex-row justify-between gap-4 text-[9px] uppercase tracking-[0.4em]">
       <span>© {new Date().getFullYear()} {s.name}</span>
-      <span className="text-cream/30 italic">Brewed with care in South Africa</span>
+      <span className="text-cream/30 italic">Crafted with care by <a id="upscale-link" href="https://upscaleda.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors underline decoration-white/20 underline-offset-4 inline-block">UPSCALE DIGITAL</a></span>
     </div>
   </footer>
 );
